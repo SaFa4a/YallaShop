@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+
+body{
+    background-color: white
+}
+*{
+    list-style: none;
+    padding: 0;
+}
+
+#co{
+    height: 200px;
+    
+
+}
+
+h1{
+   
+    font-family: Courgette;
+    padding-top: 90px;
+
+}
+.card img {
+    height: 100%;
+    width: 100%;
+    /* object-fit: contain; */
+    margin: auto;
+    /* padding: 20px; */
+    
+}
+.card{
+    border: none;
+    position: relative;
+    overflow: hidden;
+    height: 450px;
+    /* width: 330px; */
+
+
+}
+
+.product .item {
+    height: 550px;
+    margin: 0px 0;
+    padding: 30px;
+    /* background-color: aqua; */
+}
+
+.item h6{
+
+font-size: 15px;
+}
+.item .des{
+color: rgb(119, 96, 96);
+}
+.des h6:hover{
+    color: rgb(59, 59, 245);
+    cursor:pointer;
+}
+.des span:hover{
+    color: red;
+    
+    font-weight: 700;
+    cursor:pointer;
+}
+.card  a{
+    /* display: inline; */
+    width: fit-content;
+    position: absolute;
+    text-align: center;
+  
+  
+    top:100%
+ 
+}
+.carousel-item {
+    height: 28rem;
+}
+.view{
+   background-color: rgba(0, 100, 100,0.1);
+  
+   color:black;
+   font-weight: 500;
+  text-align: center;
+
+}
+
+.view li{
+  
+/* background-color: blue; */
+margin: auto;
+text-align: center;
+}
+.item:hover .view{
+    top: 80%;
+    width: 100%;
+      border: none;
+    
+    transition: 0.1s;
+    
+}
+
+.view:hover {
+    background-color: rgba(10, 7, 7, 0.1);
+    color: black;
+  
+  
+}
+.btn li:hover {
+  background-color: black;
+    color: white;
+  
+  
+}
+.card .cat {
+    top: 8%;
+    left: 1%;
+width: fit-content;
+     position: absolute; 
+     font-size: 10px;
+     padding: 3px;
+ 
+}
+
+
+/* footer css */
+.page {
+   
+    width: fit-content;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+
+
+/* cart css */
+.imgcart{
+    width: 30%;
+}
+/* women mediaa prodact */
+@media (max-width: 500px)  {
+
+    .card img {
+        height: 100%;
+      margin: auto;
+        /* object-fit: contain; */
+       
+        /* padding: 20px; */
+    }
+    .card{
+        border: none;
+        position: relative;
+        overflow: hidden;
+        height: 450px;
+        
+    
+    
+    }
+    
+    .product .item {
+        height: 550px;
+        margin: 0px 0;
+        padding: 30px;
+      
+    }
+    
+    
+    
+    .view li{
+  
+        /* background-color: blue; */
+       margin: auto;
+        text-align: center;
+        }
+        .item:hover .view{
+            top: 80%;
+            width: 100%;
+              border: none;
+            padding: 0;
+            transition: 0.1s;
+            
+        }
+
+
+
+       
+        .imgcart{
+            width: 70%;
+        }
+
+
+
+
+        
+}
+
+
+@media (max-width: 876px)  {
+
+
+    
+    .view li{
+  
+        /* background-color: blue; */
+       margin: auto;
+        text-align: center;
+        }
+        .item:hover .view{
+            top: 80%;
+            width: 100%;
+              border: none;
+            padding: 0;
+            transition: 0.1s;
+            
+        }
+
+
+
+       
+        .imgcart{
+            width: 70%;
+        }
+
+
+
+
+        
+}

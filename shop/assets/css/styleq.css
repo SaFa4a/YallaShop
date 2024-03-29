@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -o-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+  .container-demo{
+    margin: 0;
+  }
+.panel-group .panel {
+    border-radius: 0;
+    box-shadow: none;
+    border-color: #EEEEEE;
+
+}
+.panel-default{
+    background-color: #f1f1f1;
+    
+}
+.panel-title {
+    background-color: #F6F6F6;
+    font-size: 20px;
+    padding-left: 20px;
+}
+.panel-title a {
+    text-align: left;
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    color: black;
+    opacity: 0.5;
+}
+.panel-title :hover p{
+    color: black;
+    color: red;
+}
+panel-title:hover{
+    background-color: #C30E2D;
+   
+
+}  
+.panel-body{
+    padding-left: 15px;
+    text-align: left;
+    font-size: 15px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    color: #615e5e;
+}
+
+.more-less {
+    float: right;
+    color: #212121;
+}
+.panel-default  .panel-heading + .panel-collapse > .panel-body {
+    border-top-color: #EEEEEE;
+}
+
+
+
+
+
+
+
+/*madal*/
+
+  
+  
+  
+  
+  
+ 
+  
+/*rate*/

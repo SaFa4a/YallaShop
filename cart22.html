@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="cssfa/all.min.css">
+    <!-- bootstrap 5 -->
+    <link rel="stylesheet" href="cssfa/bootstrap.min.css" >
+    <!-- custom css -->
+    <link rel="stylesheet" href="cssfa/stylefa.css">
+</head>
+<body onload="getcartitem()">
+  <nav id="nav-top" class="navbar navbar-expand-lg fixed-top navbar-light d-flex justify-content-center  ">
+    <div class="container">
+      <div class="leftnav  d-flex">
+         <a class="navbar-brand " href="#"><img src="image/yalshp.jfif"  alt="logo"></a>
+         <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon "></span>
+              
+  
+        </button>
+        <div class="collapse navbar-collapse  position-relative" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item active">
+                <a class="nav-link pt-3" href="women.html">Women <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link pt-3" href="Men.html">Men</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link pt-3" href="#">Beauty</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link pt-3" href="#">Kids</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link pt-3" href="#">Premium</a>
+                </li>
+             
+             
+            </ul>
+  </div>
+  </div>
+       <div class="rightnav d-flex  ">
+          <form class="form-inline my-2 my-lg-0 d-flex  ">
+              <input class="form-control mr-sm-2 " type="search" placeholder="Search over 1300 brands" aria-label="Search">
+              <button class="btn bg-light   my-sm-0" type="submit"><i class="fa-solid fa-magnifying-glass "></i></button>
+            </form>
+      
+  
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+               <li >
+                  <a href="wish.html"> <i class="fa-regular fa-heart "></i></a>
+              </li>
+              <li >
+                 
+                  <!-- Button trigger modal -->
+  
+  <a href="#" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  
+  <i class="fa-regular fa-user "></i></a>
+  
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+  
+        <div class="modal-header userAuthHeading ">
+          <div class="sign text-center ">Sign in</div>
+          <div class="sign text-center "> Sign up</div>
+  
+        </div>
+        <div class="modal-body ">
+        <div class="btnsign ">
+         <div class="text-center"> <button > <i class="fa-brands fa-google"></i>Google</button></div>
+         <div class="text-center"><button><i class="fa-brands fa-facebook"></i>Facebook</button></div> 
+        </div>
+        <div class="consign  mt-3">
+          <div class="container w-100 m-auto ">
+     
+            <div class="mb-3">
+              <label id="cn" for="exampleInputEmail1"   class="form-label">Email</label>
+              <input type="" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            </div>
+            <div class="mb-3">
+              <label id="cc" for="exampleInputPassword1" class="form-label">Password</label>
+              <input type="" class="form-control" id="exampleInputPassword1">
+            </div>
+           <a href="#" class="text-decoration-none"><p class="text-black">Forget your password?</p></a>
+           <div class="botn  text-center">
+           <a href="index.html"> <button type="submit" id="click" >Sign in</button></a>
+           </div>
+    
+        
+  </div>
+          
+        </div>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+                   
+              </li>
+  
+              <li >
+  
+                  <div class="count"><span>0</span></div>  
+                  <a href="bag.html" class=""><i class="fa-solid fa-bag-shopping"></i></a>             </li>
+            </ul>
+  
+       </div>
+       
+        
+      </div>
+    </nav>
+<section>
+    <div class="container">
+
+        <h1 class="text-center my-2">PRODUCT CART</h1>
+        
+           <div class="table    col-lg-9 my-4 ">
+        <table class="table table-light table-hover">
+          <thead>
+            <tr>
+              <th scope="col">ID</th>
+              <th scope="col">Prodact</th>
+              <th scope="col">Price</th>
+              <th scope="col">Number</th>
+              <th scope="col">Action</th>
+              
+            </tr>
+          </thead>
+          <tbody id="xx">
+          
+  
+           
+          </tbody>
+        </table>
+       </div>
+  
+    </div>
+        
+</section>
+ 
+
+
+<section class="footer position-relative ">
+
+  <div class="content-4  position-relative ">
+    <div class="dv d-flex justify-content-center pt-5">
+    <div class="dv1 position-absolute  pt-5">
+       <img src="image/67b23bfa-3f41-40f7-a780-263e13407c06.jfif " width="200px" height="150px" alt="footer img" class="pt-5 pb-2"/>
+      <p> Copyright &copy; 2022. All rights reserved.
+         
+      </p>
+ 
+
+  <div class="iconss pt-5 ">
+   <a href="#" class="text-decoration-none" > <i class="fa-brands fa-instagram"></i></a> 
+   <a href="#" class="text-decoration-none"> <i class="fa-brands fa-facebook-f"></i> </a>
+    <a href="#" class="text-decoration-none"> <i class="fa-brands fa-pinterest-p"></i> </a>
+    <a href="#" class="text-decoration-none"> <i class="fa-brands fa-snapchat"></i> </a>
+    <a href="#" class="text-decoration-none"> <i class="fa-brands fa-youtube"></i> </a>
+    <a href="#" class="text-decoration-none"> <i class="fa-brands fa-twitter"></i> </a>
+  </div>
+</div>
+</div>
+</div>
+
+
+
+</section>
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/11.4.32/sweetalert2.all.min.js" integrity="sha512-Urg8l2V5SUjMkg0IhnAJw1G0viVOVqOxsoa8jkkq5n7JA55bGWAYJME3Lap1q0SEWvtot2pOgoprTOib4jtpuw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- bootstrap 5 -->
+    <script src="jsfa/bootstrap.bundle.min.js"></script>
+    <script src = "jsfa/mainfa.js"></script>
+</body>
+</html>

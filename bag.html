@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>YallaShop</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="image/67b23bfa-3f41-40f7-a780-263e13407c06.jfif" type="image/png"   />
+
+    <script src="https://kit.fontawesome.com/e1d153395c.js" crossorigin="anonymous"></script>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet"/>
+
+    <link  rel="stylesheet" href="css/style.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    
+</head>
+<body  onload="getcartitem()">
+    <div class="up2  ">
+
+        <div class="sec1  w-100  d-flex">
+            <span class="a d-flex  "> 
+                
+            </span>
+            <span class="b d-flex   justify-content-center pt-1"> 
+                <i class="fa-solid fa-money-bill-1-wave pt-1 text-white "></i>
+                <P class="text-white ps-1 pt-1">Cash On Delivery</P>
+            </span>
+            <span class="c d-flex   justify-content-center pt-1"> 
+                <i class="fa-solid fa-rotate pt-1 text-white"></i>
+                <P class="text-white ps-1 pt-1">Fast Delivery and Exchanges</P>
+            </span>
+        
+            <span class="d d-flex   justify-content-center pt-1"> 
+                <i class="fa-solid fa-certificate pt-1 text-white"></i>
+                        <P class="text-white pt-1 ps-1">100% Genuine</P>
+            </span>
+        
+            <span class="e d-flex   justify-content-center"> 
+                <a href="#"  class="link-light text-decoration-none pt-1" >العربية</a>
+                <div class="dropdown show ">
+                  <a class="b text-decoration-none text-white" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <img src="image/globall.png" width="29" height="29" class="pt-1 ps-2" alt="flag">
+                  </a>
+                
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                    <a class="dropdown-item" href="#"><img src="image/palestine.png" width="29" height="29" class="pt-1 ps-2" alt="flag">
+                    Palestine</a>
+                    <a class="dropdown-item" href="#"><img src="image/kuwait.png" width="29" height="29" class="pt-1 ps-2" alt="flag">
+                   Kuwait </a>
+                    <a class="dropdown-item" href="#"><img src="image/lebanon.png" width="29" height="29" class="pt-1 ps-2" alt="flag">
+                   Lebanon </a>
+                   <a class="dropdown-item" href="#"><img src="image/italy.png" width="29" height="29" class="pt-1 ps-2" alt="flag">
+                    Italy</a>
+                  </div>
+                </div>
+            </span>
+        
+           
+        
+        </div>
+            
+        
+        
+        
+        
+        </div>
+        <!-- navbar -->
+    <nav id="nav-top" class="navbar navbar-expand-lg navbar-light d-flex justify-content-center  ">
+        <div class="container">
+          <div class="leftnav  d-flex">
+             <a class="navbar-brand " href="#"><img src="image/yalshp.jfif" alt="logo"></a>
+             <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon "></span>
+                  
+      
+            </button>
+            <div class="collapse navbar-collapse  position-relative" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item active">
+                    <a class="nav-link pt-3" href="women.html">Women <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link pt-3" href="Men.html">Men</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link pt-3" href="#">Beauty</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link pt-3" href="#">Kids</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link pt-3" href="#">Premium</a>
+                    </li>
+                 
+                 
+                </ul>
+      </div>
+      </div>
+           <div class="rightnav d-flex  ">
+              <form class="form-inline my-2 my-lg-0 d-flex  ">
+                  <input class="form-control mr-sm-2 " type="search" placeholder="Search over 1300 brands" aria-label="Search">
+                  <button class="btn bg-light   my-sm-0" type="submit"><i class="fa-solid fa-magnifying-glass "></i></button>
+                </form>
+          
+      
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                   <li >
+                      <a href="wish.html"> <i class="fa-regular fa-heart "></i></a>
+                  </li>
+                  <li >
+                     
+                      <!-- Button trigger modal -->
+      
+      <a href="#" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
+      
+      <i class="fa-regular fa-user "></i></a>
+      
+      
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      
+            <div class="modal-header userAuthHeading ">
+              <div class="sign text-center ">Sign in</div>
+              <div class="sign text-center "> Sign up</div>
+      
+            </div>
+            <div class="modal-body ">
+            <div class="btnsign ">
+             <div class="text-center"> <button > <i class="fa-brands fa-google"></i>Google</button></div>
+             <div class="text-center"><button><i class="fa-brands fa-facebook"></i>Facebook</button></div> 
+            </div>
+            <div class="consign  mt-3">
+              <div class="container w-100 m-auto ">
+         
+                <div class="mb-3">
+                  <label id="cn" for="exampleInputEmail1"   class="form-label">Email</label>
+                  <input type="" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                </div>
+                <div class="mb-3">
+                  <label id="cc" for="exampleInputPassword1" class="form-label">Password</label>
+                  <input type="" class="form-control" id="exampleInputPassword1">
+                </div>
+               <a href="#" class="text-decoration-none"><p class="text-black">Forget your password?</p></a>
+               <div class="botn  text-center">
+               <a href="index.html"> <button type="submit" id="click" >Sign in</button></a>
+               </div>
+        
+            
+      </div>
+              
+            </div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+                       
+                  </li>
+      
+                  <li >
+      
+                      <div class="count"><span>0</span></div>  
+                      <a href="bag.html" class=""><i class="fa-solid fa-bag-shopping"></i></a>             </li>
+                </ul>
+      
+           </div>
+           
+            
+          </div>
+        </nav>
+
+
+<section class=" wish bag">
+    <div class="container">
+        <div class="wish-content bagg">
+            <div class="container">
+
+                <h1 class=" car text-center my-2">PRODUCT CART</h1>
+                
+                   <div class="table    col-lg-9 my-4 ">
+                <table class="table table-light table-hover">
+                  <thead>
+                    <tr>
+                      <th scope="col">ID</th>
+                      <th scope="col">Prodact</th>
+                      <th scope="col">Price</th>
+                      <th scope="col">Number</th>
+                      <th scope="col">Action</th>
+                      
+                    </tr>
+                  </thead>
+                  <tbody id="xx">
+                   
+                  </tbody>
+                </table>
+               </div>
+          
+            </div>
+           
+            
+            <!-- كك -->
+<div class="div1">
+   <div class="head d-flex justify-content-between ">
+    <div id="test" class="one d-flex">
+    <img  class="mt-5" src="image/dc6162d11fb9766febb0.svg" width="141px" height="141px" alt="wish img"/>
+    <div class="wishp ms-5">
+        <h3> Your Bag is Empty  </h3>
+        <p>Check out what's trending</p>
+
+        
+    </div>
+  </div>
+    <div class="continue_button">
+      <a class="text-decoration-none" href="farah.html"> <button id="u" class="bg-light">continue shopping</button>
+      </a>
+    </div>
+   </div> 
+  
+
+</div>
+
+
+
+        </div>
+    </div>
+</section>
+
+
+<section class="product">
+<div class="container">
+  <p class="pt-5">Trendig Products</p>
+  <div class="procontent  mt-5 mb-5">
+  <div id="carouselExampleIndicators " class="carousel slide carousel-dark" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="pro"></div>
+    <div class=" cin carousel-inner " id="ca">
+      <div class="cit carousel-item ci active ">
+        <div class="cards-wrapper d-flex">
+        <div class="card"   style="width: 18rem;">
+          <img src="image/20.png" class="card-img-top" id="imag" alt="...">
+          <div class="card-body">
+            <h5 id="tit" class="card-title" >Jordan</h5>
+            <p class="card-text">Kids Jordan 1 Mid GP</p>
+           <div class="mb-2"> <span id="price">112.73 USD </br></span></div>
+            <a href="#" class=" my-cart-btn mt-4" id="click1" >Add to Cart</a>
+          </div>
+        </div>
+        <div class="card" id="2"  style="width: 18rem;">
+          <img src="image/12.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Eucerin</h5>
+            <p class="card-text">Even pigment perfector </p>
+            <div class="mb-2"> <span id="price">60.44 USD </br></span></div>
+            <a href="#" class="my-cart-btn" id="click2" >Add to Cart</a>
+          </div>
+        </div>
+        <div class="card" id="3" style="width: 18rem;">
+          <img src="image/13.fpg.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Indya</h5>
+            <p class="card-text">Printed lace detail.</p>
+            <div class="mb-2"> <span class="shtb">123.9 USD</span> <span class="text-danger">63.73 USD </br></span></div>
+            <a href="#" class="my-cart-btn" id="click3">Add to Cart</a>
+          </div>
+        </div>
+        <div class="card" id="23" style="width: 18rem;">
+          <img src="image/18.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">ANASTASIA BEVERLY </h5>
+            <p class="card-text">Blush trio-peachy love.</p>
+            <div class="mb-2"> <span class="shtb">47.9 USD</span> <span class="text-danger">40 USD </br></span></div>
+
+            <a href="#" class="my-cart-btn" id="click4">Add to Cart</a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img src="image/14.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">ThreadsByAjooni</h5>
+            <p class="card-text">Cut out latce details dress.</p>
+            <div class="mb-2"> <span class="shtb">176.9 USD</span> <span class="text-danger">130.5 USD </br></span></div>
+
+            <a href="#" class="my-cart-btn" id="click5">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+
+      </div>
+
+      <div class="cit carousel-item ci active ">
+        <div class="cards-wrapper d-flex">
+        <div class="card" style="width: 18rem;">
+          <img src="image/15.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Indya</h5>
+            <p class="card-text">Indya X Ashish.</p>
+            <div class="mb-2"> <span class="shtb">61.45 USD</span> <span class="text-danger">54.73 USD </br></span></div>
+
+            <a href="#" class="my-cart-btn" id="click6">Add to Cart</a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img src="image/16.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">I saw it first curve</h5>
+            <p class="card-text">Blue plus size foral print</p>
+            <div class="mb-2"> <span class="shtb">56.9 USD</span> <span class="text-danger">32.73 USD </br></span></div>
+
+            <a href="#" class="my-cart-btn" id="click7">Add to Cart</a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img src="image/17.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Aurora</h5>
+            <p class="card-text">4pcs king prented bedding.</p>
+            <div class="mb-2"> <span class="shtb">58.29 USD</span> <span class="text-danger">33.73 USD </br></span></div>
+
+            <a href="#" class="my-cart-btn"
+            id="click8">Add to Cart</a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img src="image/19.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Fujifilm</h5>
+            <p class="card-text">Instax mini 11 Bts Butter</p>
+            <div class="mb-2"> <span>116.54 USD </br></span></div>
+
+            <a href="#" class="my-cart-btn" id="click9">Add to Cart</a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img src="image/21.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">LabelloX</h5>
+            <p class="card-text">Emblished Bodice </p>
+            <div class="mb-2"> <span class="shtb">142.29 USD</span> <span class="text-danger">97.5 USD </br></span></div>
+
+            <a href="#" class="my-cart-btn"
+            id="click10">Add to Cart</a>
+          </div>
+        </div>
+
+      </div>
+      </div>
+
+      <div class="cit carousel-item ci active ">
+        <div class="cards-wrapper d-flex">
+        <div class="card" style="width: 18rem;">
+          <img src="image/22.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title" id="kkk">Gift Rebublic</h5>
+            <p class="card-text"> Astronomia - Ecologie</p>
+            <div class="mb-2"> <span class="shtb">11.4 USD</span> <span class="text-danger">7.12 USD </br></span></div>
+
+            <a href="#" class="my-cart-btn" id="click11">Add to Cart</a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img src="image/23.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">OuterStuff</h5>
+            <p class="card-text">NBA content.</p>
+            <div class="mb-2"> <span class="shtb">72.29 USD</span> <span class="text-danger">45.73 USD </br></span></div>
+
+            <a href="#" class="my-cart-btn" id="click12">Add to Cart</a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img src="image/11.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Estee Lauder</h5>
+            <p class="card-text">Advanced Night Repair.</p>
+            <div class="mb-2">  <span >107.73 USD </br></span></div>
+
+            <a href="#" class="my-cart-btn" id="click13">Add to Cart</a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img src="image/24.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Amanda Holden</h5>
+            <p class="card-text">Champange Bubbles King</p>
+            <div class="mb-2"> <span class="shtb">141.9 USD</span> <span class="text-danger">118.73 USD </br></span></div>
+
+            <a href="#" class="my-cart-btn" id="click14">Add to Cart</a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img src="image/25.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Trendyol</h5>
+            <p class="card-text">knitted Hoodie</p>
+            <div class="mb-2"> <span class="shtb">28.29 USD</span> <span class="text-danger">31.73 USD </br></span></div>
+
+            <a href="#" class="my-cart-btn" id="click15">Add to Cart</a>
+          </div>
+        </div>
+        
+      </div>
+
+      </div>
+      
+       
+    </div>
+    <button class=" ccp carousel-control-prev " type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class=" ccn carousel-control-next " type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</div>
+</div>
+
+
+
+</section>
+
+
+
+
+
+
+
+<section class="footer position-relative ">
+
+  <div class="content-4  position-relative ">
+    <div class="dv d-flex justify-content-center pt-5">
+    <div class="dv1 position-absolute  pt-5">
+       <img src="image/67b23bfa-3f41-40f7-a780-263e13407c06.jfif" width="200px" height="150px" alt="footer img" class="pt-5 pb-2"/>
+      <p> Copyright &copy; 2022. All rights reserved.
+         
+      </p>
+ 
+
+  <div class="iconss pt-5 ">
+   <a href="#" class="text-decoration-none" > <i class="fa-brands fa-instagram"></i></a> 
+   <a href="#" class="text-decoration-none"> <i class="fa-brands fa-facebook-f"></i> </a>
+    <a href="#" class="text-decoration-none"> <i class="fa-brands fa-pinterest-p"></i> </a>
+    <a href="#" class="text-decoration-none"> <i class="fa-brands fa-snapchat"></i> </a>
+    <a href="#" class="text-decoration-none"> <i class="fa-brands fa-youtube"></i> </a>
+    <a href="#" class="text-decoration-none"> <i class="fa-brands fa-twitter"></i> </a>
+  </div>
+</div>
+</div>
+</div>
+
+
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="js/main.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/11.4.37/sweetalert2.all.min.js" integrity="sha512-3hFcDwNjb1Fi8b5SvvrvkoWHniN7awVYfdULoVIYRXIdIh6nX/0HUwp7ELi1VzxZuXCGwhUfXxQ3vnOD6COAmQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+</body>
